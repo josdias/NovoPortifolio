@@ -1,0 +1,68 @@
+.menu-botao{
+    background-color: transparent;
+    border: 0;
+
+}
+
+.blur{
+    filter: blur(4px);
+}
+
+.menu{
+    display: none;
+    animation-duration: 1s;
+    animation-name: ida;
+    
+}
+
+.ativa{
+    display: block;
+    height: 100vh;
+}
+
+.reverso{
+    animation-duration: 1s;
+    animation-name: reverso;
+}
+
+@keyframes reverso{
+    from{
+        margin-right: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
+
+.animacao{
+    animation-duration: 1s;
+    animation-name: slide;
+}
+
+@keyframes slide{
+    from{
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.menu-lista{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding: 16px;
+}
+
+.menu-lista__item{
+    margin: 16px;
+}
+
+.menu-lista__link{
+    font-size: 30px;
+    color: var(--branco);
+    text-decoration: none;
+}

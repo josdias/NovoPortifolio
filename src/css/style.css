@@ -1,0 +1,28 @@
+@import url("header.css");
+@import url("apresentacao.css");
+
+:root{
+
+    --primeira-tela:linear-gradient(#361236, #1c1c1c);
+
+    --font-nome: 'Climate Crisis', cursive;
+
+    --branco: #ffffff ;
+    --preto: #000000;
+
+}
+
+body{
+    color: var(--branco);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    padding-top: 16px;
+}
+
+.primeira-tela{
+    background: var(--primeira-tela);
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,23 @@
+.apresentacao-tela{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* .imagem-apresentacao{
+    width: 100%;
+    height: 100%;
+} */
+
+.texto-apresentacao{
+    font-family: var(--font-nome);
+    font-size: 48px;
+}
+
+.avatar{
+    position: relative;
+    right: 0;
+}
